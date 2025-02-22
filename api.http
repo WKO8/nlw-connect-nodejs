@@ -1,0 +1,28 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "Usuario Indicado 3",
+    "email": "indicado3@wkodev.com",
+    "referrer": "24ea9ee7-e1b1-47b7-9c3b-36b313322e1e"
+}
+
+###
+
+GET http://localhost:3333/invites/a13d1769-8619-43d8-9fc2-e1b1b109b874
+
+###
+
+GET http://localhost:3333/subscribers/a13d1769-8619-43d8-9fc2-e1b1b109b874/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/a13d1769-8619-43d8-9fc2-e1b1b109b874/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/a13d1769-8619-43d8-9fc2-e1b1b109b874/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
