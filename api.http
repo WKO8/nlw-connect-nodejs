@@ -2,27 +2,35 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Usuario Indicado 3",
-    "email": "indicado3@wkodev.com",
-    "referrer": "24ea9ee7-e1b1-47b7-9c3b-36b313322e1e"
+    "name": "W_K.O",
+    "email": "wko@wkodev.com"
 }
 
 ###
 
-GET http://localhost:3333/invites/a13d1769-8619-43d8-9fc2-e1b1b109b874
+GET http://localhost:3333/invites/8f5c478a-2ce2-4270-8e51-929dffd99e58
 
 ###
 
-GET http://localhost:3333/subscribers/a13d1769-8619-43d8-9fc2-e1b1b109b874/ranking/clicks
+GET http://localhost:3333/subscribers/8f5c478a-2ce2-4270-8e51-929dffd99e58/ranking/clicks
 
 ###
 
-GET http://localhost:3333/subscribers/a13d1769-8619-43d8-9fc2-e1b1b109b874/ranking/count
+GET http://localhost:3333/subscribers/8f5c478a-2ce2-4270-8e51-929dffd99e58/ranking/count
 
 ###
 
-GET http://localhost:3333/subscribers/a13d1769-8619-43d8-9fc2-e1b1b109b874/ranking/position
+GET http://localhost:3333/subscribers/8f5c478a-2ce2-4270-8e51-929dffd99e58/ranking/position
 
 ###
 
 GET http://localhost:3333/ranking
+
+###
+ 
+POST http://localhost:3333/messages
+Content-Type: application/json
+
+{
+    "message": "Quais os e-mails dos usuários cadastrados em minha aplicação?"
+}
